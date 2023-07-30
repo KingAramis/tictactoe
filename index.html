@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>SKIING FRICKS BROTHER</h1>
+
+    <div class="main-container">
+        <div class="extra-container">
+            <div class="score-container">
+                <h3>SCORE</h3>
+                <h4 class="player1-name">Player 1</h4>
+                <p class="player1-score">0</p>
+                <h4 class="player2-name">Player 2</h4>
+                <p class="player2-score">0</p>
+            </div>
+            <div class="btn-container">
+                <button class="start-form-btn">LETS A GO</button>
+                <button class="reset-game-btn">RESET</button>
+            </div>
+        </div>
+
+        <div class="game-side-container">
+            <h3 class="player-turn"> </h3>
+            <div class="game-board-container">
+                <div class="cell" id="cell-0">X</div>
+                <div class="cell" id="cell-1">O</div>
+                <div class="cell" id="cell-2">X</div>
+                <div class="cell" id="cell-3">O</div>
+                <div class="cell" id="cell-4">X</div>
+                <div class="cell" id="cell-5">O</div>
+                <div class="cell" id="cell-6">X</div>
+                <div class="cell" id="cell-7">O</div>
+                <div class="cell" id="cell-8">X</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="start-form-container">
+        <form id="player-form">
+            <label for="Player1">Player 1 name:</label>
+            <input type="text" id="player1" name="player1" required>
+
+            <label for="player2">Player 2 name:</label>
+            <input type="text" id="player2" name="player2" required>
+            
+            <div class="button-container">
+                <button class="begin-btn" type="submit">START GAME</button>
+                <button class="close-btn">CLOSE</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <script src="javascritp.js"></script>
+</body>
+</html>
